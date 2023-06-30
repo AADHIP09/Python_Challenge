@@ -17,4 +17,16 @@ The greatest decrease in profits (date and amount) over the entire period
 
 
 ####################################################################################################################################################################################################################
+EXTERNAL REFERENCES USED: 
+https://www.pythontutorial.net/python-basics/python-write-text-file/
+https://stackoverflow.com/questions/5214578/print-string-to-text-file
+
+Relevant code: 
+
+with open(result_file, "a") as txt_file:
+    txt_file.write("-----------------------\n")
+    txt_file.write(output_txt)
+
+
+
 
